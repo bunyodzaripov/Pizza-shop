@@ -3,11 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo.png"
+      type="image/x-icon"
+    />
     <title>Pizza Shop</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <style type="text/tailwindcss"></style>
   </head>
-  <body>
+  <body class="bg-gradient-to-r from-[#190A00] to-[#1C0900]">
+    <div class="container mx-auto px-[24px] lg:px-[130px]">
+      <!-- Header section -->
+      <header
+        class="flex justify-between items-center gap-[20px] mt-[30px] lg:mt-[50px]"
+      >
+        <!-- Logo -->
+        <h1
+          class="font-extrabold pb-2 text-2xl bg-gradient-to-r from-[#FFA228] to-[#FF6432] bg-clip-text text-transparent lg:text-4xl"
+        >
+          <a href="#">pizzashop</a>
+        </h1>
+        <!-- Desktop Navbar  -->
+        <nav class="hidden lg:flex gap-[80px]">
+          <a
+            class="text-[#A3A3A3] text-lg hover:bg-gradient-to-r from-[#FFA228] to-[#FF6432] bg-clip-text hover:text-transparent"
+            href="#home"
+            >Home</a
+          >
+          <a
+            class="text-[#A3A3A3] text-lg hover:bg-gradient-to-r from-[#FFA228] to-[#FF6432] bg-clip-text hover:text-transparent"
+            href="#menu"
+            >Menu</a
+          >
+          <a
+            class="text-[#A3A3A3] text-lg hover:bg-gradient-to-r from-[#FFA228] to-[#FF6432] bg-clip-text hover:text-transparent"
+            href="#events"
+            >Events</a
+          >
+          <a
+            class="text-[#A3A3A3] text-lg whitespace-nowrap hover:bg-gradient-to-r from-[#FFA228] to-[#FF6432] bg-clip-text hover:text-transparent"
+            href="#aboutUs"
+            >About us</a
+          >
+        </nav>
+        <!-- Right header -->
+        <div class="flex gap-[24px]">
+          <button
+            class="hidden whitespace-nowrap text-lg cursor-pointer text-white py-[6px] px-[56px] rounded-[700px] bg-gradient-to-r from-[#FFA228] to-[#FF6432] lg:block"
+          >
+            Log in
+          </button>
+
+          <button class="cursor-pointer lg:w-[40px]">
+            <img
+              src="/assets/icons/backet.svg"
+              alt="backet"
+              class="lg:w-[40px]"
+            />
+          </button>
+          <!-- Burger Button -->
+          <button id="menu-button" class="cursor-pointer lg:hidden">
+            <img src="/assets/icons/burger.svg" alt="burger btn" />
+          </button>
+        </div>
+      </header>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="/js/main.js"></script>
   </body>
