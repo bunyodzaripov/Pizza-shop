@@ -1,2 +1,14 @@
 /* for bg --> bg-gradient-to-r from-[#FFA228] to-[#FF6432] */
 /* for text add this --> bg-clip-text text-transparent  */
+
+.nav-link {
+  font-size: 1.125rem;
+  color: #a3a3a3;
+  transition: all 0.3s;
+  white-space: nowrap;
+}
+.nav-link:hover {
+  background: linear-gradient(to right, #ffa228, #ff6432);
+  background-clip: text;
+  color: transparent;
+}
