@@ -24,7 +24,7 @@
         >
           <a href="#">pizzashop</a>
         </h1>
-        <!-- Desktop Navbar  -->
+        <!-- Desktop Navigation  -->
         <nav class="hidden lg:flex gap-[80px]">
           <a class="nav-link" href="#home">Home</a>
           <a class="nav-link" href="#menu">Menu</a>
@@ -78,6 +78,66 @@
           </div>
         </nav>
       </header>
+
+      <!-- Main section  -->
+      <main>
+        <!-- Hero section -->
+        <section
+          class="flex flex-col items-center gap-[76px] pt-[53px] pb-[71px] lg:flex-row-reverse lg:justify-between"
+        >
+          <!-- Images content -->
+          <div class="relative">
+            <img
+              class="absolute w-[129px] -top-10 -right-10 lg:w-[251px] lg:-top-21 lg:-right-22"
+              src="./assets/images/pizza.png"
+              alt="pizza"
+            />
+            <img
+              class="w-[243px] lg:w-[456px]"
+              src="./assets/images/hero.png"
+              alt="hero pizza"
+            />
+            <img
+              class="w-[110px] absolute -bottom-6 -left-10 lg:w-[212px] lg:-left-20 lg:-bottom-12"
+              src="./assets/images/fries.png"
+              alt="fries"
+            />
+          </div>
+          <!-- Text content -->
+          <div class="flex flex-col gap-[30px] w-[383px] lg:w-[550px]">
+            <h2
+              class="text-white font-extrabold text-[48px] leading-[110%] lg:text-[69px]"
+            >
+              The Fastest Pizza
+              <span>
+                <img
+                  class="w-[34px] inline-block align-middle lg:w-[48px]"
+                  src="./assets/icons/lighting.svg"
+                  alt="lighting"
+                />
+              </span>
+              Delivery
+            </h2>
+            <p class="text-[14px] text-[#A3A3A3] w-[293px]">
+              We will deliver juicy pizza for your family in 30 minutes, if the
+              courier is late -
+              <a href="#" class="text-white">pizza is free!</a>
+            </p>
+            <div class="relative flex">
+              <button
+                class="text-white font-medium cursor-pointer rounded-[71px] px-[50px] py-[12px] bg-gradient-to-r from-[#FFA228] to-[#FF6432]"
+              >
+                To order
+              </button>
+              <button
+                class="-left-12 -z-50 text-white font-medium text-[14px] rounded-[71px] ps-[60px] pr-[25px] py-[14px] btn-linear"
+              >
+                Pizza-Menu
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>

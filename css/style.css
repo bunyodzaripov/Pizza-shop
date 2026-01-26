@@ -12,3 +12,10 @@
   background-clip: text;
   color: transparent;
 }
+.btn-linear {
+  position: relative;
+  background:
+    linear-gradient(#190a00, #1c0900) padding-box,
+    linear-gradient(#ffa631 7.69%, #ff6939 81.11%) border-box;
+  border: 1.43px solid transparent;
+}
