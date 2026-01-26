@@ -12,10 +12,22 @@
   background-clip: text;
   color: transparent;
 }
+
+.bg-linear {
+  background: linear-gradient(261.48deg, #fe9c1c -17.13%, #ff5e2a 86.76%);
+}
+
 .btn-linear {
   position: relative;
   background:
     linear-gradient(#190a00, #1c0900) padding-box,
     linear-gradient(#ffa631 7.69%, #ff6939 81.11%) border-box;
   border: 1.43px solid transparent;
+}
+
+.btn-linear span {
+  background: linear-gradient(261.69deg, #ff6432 12.12%, #ffa228 86.72%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
