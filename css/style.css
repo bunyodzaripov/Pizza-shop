@@ -1,6 +1,7 @@
 /* for bg --> bg-gradient-to-r from-[#FFA228] to-[#FF6432] */
 /* for text add this --> bg-clip-text text-transparent  */
 
+/* Header navbar links */
 .nav-link {
   font-size: 1.125rem;
   color: #a3a3a3;
@@ -17,6 +18,7 @@
   background: linear-gradient(261.48deg, #fe9c1c -17.13%, #ff5e2a 86.76%);
 }
 
+/* for btn border linear gradient color  */
 .btn-linear {
   position: relative;
   background:
@@ -24,7 +26,7 @@
     linear-gradient(#ffa631 7.69%, #ff6939 81.11%) border-box;
   border: 1.43px solid transparent;
 }
-
+/* for btn text linear gradient color  */
 .btn-linear span {
   background: linear-gradient(261.69deg, #ff6432 12.12%, #ffa228 86.72%);
   -webkit-background-clip: text;
@@ -32,10 +34,12 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* bg shadow for cards */
 .bg-shadow {
   box-shadow: 0px 5.5px 24.46px 0px #ff6b000f;
 }
 
+/* for btn small circle  */
 .sm-circle {
   display: flex;
   justify-content: center;
@@ -45,10 +49,27 @@
   border: none solid #a3a3a3;
   border-radius: 100%;
 }
-
 @media (min-width: 1024px) {
   .sm-circle {
     width: 40px;
     height: 40px;
+  }
+}
+
+/* for extra small circle */
+.esm-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2px;
+  width: 14px;
+  height: 14px;
+  border: none solid #a3a3a3;
+  border-radius: 100%;
+}
+@media (min-width: 1024px) {
+  .esm-circle {
+    width: 23px;
+    height: 23px;
   }
 }
