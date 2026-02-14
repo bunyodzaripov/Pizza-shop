@@ -790,7 +790,9 @@
             </div>
 
             <!-- Images content -->
-            <div class="flex flex-wrap gap-3.5 lg:gap-6 lg:flex-nowrap">
+            <div
+              class="flex justify-center flex-wrap gap-3.5 lg:gap-6 lg:flex-nowrap"
+            >
               <!-- image 1 -->
               <div
                 class="basis-[calc(50%-7px)] bg-pizza-bg1 bg-cover w-57 flex flex-col justify-between gap-7.5 items-start pt-12.5 pb-6 px-3.75 rounded-[20px] lg:gap-12 lg:px-6.25 lg:pt-20 lg:pb-10 lg:w-91.75 lg:rounded-[30px]"
@@ -870,7 +872,7 @@
 
           <!-- bottom content -->
           <div
-            class="flex flex-wrap gap-3.5 mt-3.5 lg:flex-nowrap lg:gap-6 lg:mt-6"
+            class="flex justify-center flex-wrap gap-3.5 mt-3.5 lg:flex-nowrap lg:gap-6 lg:mt-6"
           >
             <!-- image 1 -->
             <div
@@ -924,28 +926,29 @@
         <!-- About us section-->
         <section
           id="aboutUs"
-          class="flex flex-col items-center gap-15.5 py-18.75 lg:py-32.5 lg:flex-row-reverse lg:justify-between"
+          class="flex flex-col gap-15.5 py-18.75 lg:py-32.5 lg:flex-row-reverse lg:justify-between lg:gap-30"
         >
           <!-- Images content -->
-          <div class="relative">
+          <div class="relative flex flex-1">
             <img
-              class="absolute w-29.25 -top-10 -right-10 lg:w-59 lg:-top-18 lg:-right-20"
+              class="absolute w-1/3 -top-10 -right-10 lg:w-1/2 lg:-top-18 lg:-right-20"
               src="./assets/images/pizza.png"
               alt="pizza"
             />
             <img
-              class="w-[256px] lg:w-141.75"
+              class="w-full"
               src="./assets/images/pizza-pp.png"
               alt="pepperoni pizza"
             />
             <img
-              class="w-25 absolute -bottom-2 -left-5 lg:w-50.5 lg:-left-8 lg:-bottom-2"
+              class="absolute w-1/3 -bottom-2 -left-5 lg:w-1/2 lg:-left-8 lg:-bottom-2"
               src="./assets/images/fries.png"
               alt="fries"
             />
           </div>
+
           <!-- Text content -->
-          <div class="flex flex-col gap-7 w-86 lg:w-122.5 lg:">
+          <div class="flex flex-1 flex-col gap-7">
             <h2 class="text-white font-extrabold text-[48px] lg:text-[69px]">
               About us
             </h2>
@@ -957,7 +960,7 @@
             </p>
             <div class="relative">
               <img
-                class="lg:w-122.5"
+                class="w-full"
                 src="./assets/images/pizza-group.png"
                 alt="four pizza "
               />
