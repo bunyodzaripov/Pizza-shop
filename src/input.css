@@ -1,3 +1,36 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-pizza-banner {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../assets/images/pizza-bg.png");
+  }
+  .bg-pizza-bg1 {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../assets/images/pizza-bg.png");
+  }
+  .bg-pizza-bg2 {
+    background-image: url("../assets/images/pizza-bg2.png");
+  }
+  .bg-pizza-bg3 {
+    background-image: url("../assets/images/pizza-bg3.png");
+  }
+  .bg-pizza-bg4 {
+    background-image: url("../assets/images/pizza-bg4.png");
+  }
+  .bg-pizza-bg5 {
+    background-image: url("../assets/images/pizza-bg5.png");
+  }
+  .bg-pizza-bg6 {
+    background-image: url("../assets/images/pizza-bg6.png");
+  }
+  .bg-pizza-bg7 {
+    background-image: url("../assets/images/pizza-bg7.png");
+  }
+}
+
 /* for bg --> bg-gradient-to-r from-[#FFA228] to-[#FF6432] */
 /* for text add this --> bg-clip-text text-transparent  */
 
