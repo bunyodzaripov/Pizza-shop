@@ -441,11 +441,32 @@
   .max-w-20\.25 {
     max-width: calc(var(--spacing) * 20.25);
   }
+  .max-w-39 {
+    max-width: calc(var(--spacing) * 39);
+  }
+  .max-w-39\.5 {
+    max-width: calc(var(--spacing) * 39.5);
+  }
   .max-w-48 {
     max-width: calc(var(--spacing) * 48);
   }
   .max-w-48\.5 {
     max-width: calc(var(--spacing) * 48.5);
+  }
+  .max-w-49 {
+    max-width: calc(var(--spacing) * 49);
+  }
+  .max-w-49\.5 {
+    max-width: calc(var(--spacing) * 49.5);
+  }
+  .max-w-57 {
+    max-width: calc(var(--spacing) * 57);
+  }
+  .max-w-57\.25 {
+    max-width: calc(var(--spacing) * 57.25);
+  }
+  .max-w-97 {
+    max-width: calc(var(--spacing) * 97);
   }
   .max-w-114 {
     max-width: calc(var(--spacing) * 114);
@@ -554,6 +575,12 @@
   }
   .gap-20 {
     gap: calc(var(--spacing) * 20);
+  }
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+  .scroll-smooth\! {
+    scroll-behavior: smooth !important;
   }
   .rounded-3xl {
     border-radius: var(--radius-3xl);
@@ -1129,6 +1156,11 @@
   .lg\:max-w-20 {
     @media (width >= 64rem) {
       max-width: calc(var(--spacing) * 20);
+    }
+  }
+  .lg\:max-w-57\.25 {
+    @media (width >= 64rem) {
+      max-width: calc(var(--spacing) * 57.25);
     }
   }
   .lg\:max-w-68 {
