@@ -29,6 +29,15 @@
   .bg-pizza-bg7 {
     background-image: url("../assets/images/pizza-bg7.png");
   }
+  .bg-footer {
+    background: linear-gradient(
+      245.71deg,
+      #170a00 4.96%,
+      #170600 33.7%,
+      #0f0700 68.41%,
+      #170a00 96.42%
+    );
+  }
 }
 
 /* for bg --> bg-gradient-to-r from-[#FFA228] to-[#FF6432] */
@@ -105,14 +114,4 @@
     width: 23px;
     height: 23px;
   }
-}
-
-.bg-footer {
-  background: linear-gradient(
-    245.71deg,
-    #170a00 4.96%,
-    #170600 33.7%,
-    #0f0700 68.41%,
-    #170a00 96.42%
-  );
 }
