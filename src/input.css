@@ -38,6 +38,12 @@
       #170a00 96.42%
     );
   }
+  .bg-player-shourov {
+    background-image: url("../assets/images/shourov.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 /* for bg --> bg-gradient-to-r from-[#FFA228] to-[#FF6432] */
